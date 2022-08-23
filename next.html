@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Um breve tchau</title>
+    <style>
+        @font-face {
+            font-family: "parati";
+            src: url(fontes/ARCHITRN.TTF);
+        }
+        body {
+            background-color: rgb(226, 150, 51);
+            height: 97vh;
+            background-image: url(img/palco.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 1px;
+            position: relative;
+        }
+        
+        #conteudo { 
+            position: absolute; 
+            bottom: 60%;
+            right: 50%;
+            transform: translate(50%, 40%);
+            text-align: center;
+        }
+        #conteudo:only-child {
+            bottom: 50%;
+        }
+        p {
+            padding: 10px;
+            font-family: "parati";   
+            font-size: 2em;
+            color: rgba(7, 2, 2, 0.767);
+            font-weight: bold;
+        }  
+
+        a {
+            text-decoration: none;
+            color: rgb(197, 194, 13); 
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            position: absolute; 
+            bottom: 0%;
+            right: 0%;
+            transform: translate(0%, 0%);
+    }
+    footer p {
+        font-size: 1.5em;
+    }
+    
+    </style>
+</head>
+<body>
+    <section id="conteudo">
+        <p>Infelizmente isto é tudo, mas é apenas a versão 1.0, até a próxima vez mas lembre-se, você é e sempre será a personagem principal deste palco.</p>
+    </section>
+    <footer>
+        <p><a href="discurso.html">&larr; retornar</a></p>
+    </footer>
+</body>
+</html>

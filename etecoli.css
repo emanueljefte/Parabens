@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "etecoli";
+    src: url(fontes/ARCHITRN.TTF);
+}
+@font-face {
+    font-family: "etecoli2";
+    src: url(fontes/frscript.ttf);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: "etecoli";
+    font-size: 1.3em;
+}
+header {
+    padding: 5px 50px;
+    margin-bottom: 5px;
+    background-color: gray;
+}
+header h1, header h2 {
+    margin-bottom: 15px;
+}
+header img {
+    float: left;
+    margin-right: 20px;
+}
+header nav {
+    text-align: right;
+}
+header nav a, main p a {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+    transition: background-color 1500ms;
+}
+header nav a:hover, main p a:hover {
+    background-color: white;
+    color: black;
+}
+header nav a:active {
+    text-decoration: underline;
+    color: yellow;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+main section h1 {
+    margin-top: 20px;
+}
+main section img {
+    margin: 10px;
+    float: left;
+}
+.limpeza {
+    clear: both;
+}
+main section q {
+    font-family: "etecoli2";
+    font-size: 1.8em;
+}
+main aside h1 {
+    background-color: gray;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+main aside {
+    border: 1px solid;
+    border-radius: 10px 10px 0px 0px;    
+    margin: 10px;
+}
+
+#centro {
+    text-align: center;
+}
+footer {
+    background-color: gray;
+    text-align: center;
+    margin-top: 10px;
+}
