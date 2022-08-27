@@ -76,8 +76,8 @@ main section img {
 }
 main section q {
     font-family: "etecoli2";
-    font-size: 1.6em;
-    font-weight: bold;
+    font-size: 1.4em;
+    font-weight: 400;
 }
 main aside h2 {
     background-color: rgba(194, 64, 136, 0.5);
@@ -127,7 +127,7 @@ footer {
         display: none;
     }
     header nav {
-        text-align: center;
+        text-align: left;
     }
     main section img {
         float: none;
@@ -139,7 +139,7 @@ footer {
         width: 100%;
     }
     #colunadireita p, #colunaesquerda p {
-        padding-left: 15%;
+        padding-left: 25px;
         
     }
 }
