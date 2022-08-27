@@ -24,6 +24,7 @@ header {
     background-color: rgba(194, 64, 136, 0.5);
 }
  h1, h2 {
+     font-size: 1.2em;
     margin-bottom: 15px;
     color: rgba(255, 255, 0, 0.952);
 }
@@ -58,7 +59,7 @@ main {
     padding: 10px;
     color: rgb(9, 25, 247); 
     background-color: rgba(37, 2, 21, 0.178);
-    font-size: 1.7em;
+    font-size: 1.4em;
 }
 main section p {
     text-indent: 20px;
@@ -94,7 +95,7 @@ main aside {
 }
 main aside p {
     padding-left: 45px;
-    font-weight: 600;
+    font-weight: 400;
 }
 #colunaesquerda {
     float: left;
@@ -117,7 +118,6 @@ footer {
     color: rgba(255, 255, 0, 0.952);
     text-align: center;
     margin-top: 10px;
-    font-size: 1.4em;
 }
 @media (max-width: 720px) {
     main p {
@@ -141,7 +141,7 @@ footer {
         width: 100%;
     }
     #colunadireita p, #colunaesquerda p {
-        padding-left: 25px;
+        padding-left: 5px;
         
     }
 }

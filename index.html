@@ -38,19 +38,6 @@
             bottom: 22%;
             right: 50%;
             transform: translate(50%, 70%);
-            animation: movimenta 12s ease 0s infinite alternate-reverse none;
-        }
-        
-        @keyframes movimenta {
-            100% {
-                transform: translate(50%, 70%);
-            }
-            50% {
-                transform: translate(50%, 50%);
-            }
-            0% {
-                transform: translate(0%, 100%);
-            }
         }
 
         p {
@@ -89,12 +76,9 @@
         a:hover {
             color: rgb(206, 186, 6);
         }
-        @media (max-width: 500px) {
+        @media (max-width: 720px) {
         p {
             font-size: 1em;
-        }
-        body {
-            height: 94vh;
         }
     }
     </style>
