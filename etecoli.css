@@ -12,7 +12,6 @@
 }
 body {
     font-family: "etecoli";
-    font-size: 1.3em;
     background-image: url(img/hbd-500-4-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +139,7 @@ footer {
         width: 100%;
     }
     #colunadireita p, #colunaesquerda p {
-        padding-left: 25%;
+        padding-left: 15%;
         
     }
 }
