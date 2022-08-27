@@ -120,9 +120,6 @@ footer {
     margin-top: 10px;
 }
 @media (max-width: 720px) {
-    main p {
-        font-size: 1em;
-    }
     header img {
         display: none;
     }
@@ -133,7 +130,8 @@ footer {
         float: none;
         display: block;
         margin: 0px auto;
-    }main section q {
+    }
+    main section q {
         font-size: 1.4em;
     }
     #colunadireita, #colunaesquerda {
@@ -141,6 +139,7 @@ footer {
         width: 100%;
     }
     #colunadireita p, #colunaesquerda p {
+        font-size: 1em;
         padding-left: 5px;
         
     }
