@@ -55,9 +55,10 @@ main {
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
-    padding: 0px 10px;
+    padding: 10px;
     color: rgb(9, 25, 247); 
     background-color: rgba(37, 2, 21, 0.178);
+    font-size: 1.7em;
 }
 main section p {
     text-indent: 20px;
@@ -107,17 +108,16 @@ main aside p {
 cite {
     padding-left: 10px;
 }
-#recuperar {
-    clear: both;
-}
 #centro {
     text-align: center;
+    
 }
 footer {
     background-color: rgba(194, 64, 136, 0.5);
     color: rgba(255, 255, 0, 0.952);
     text-align: center;
     margin-top: 10px;
+    font-size: 1.4em;
 }
 @media (max-width: 720px) {
     main p {
@@ -133,6 +133,8 @@ footer {
         float: none;
         display: block;
         margin: 0px auto;
+    }main section q {
+        font-size: 1.4em;
     }
     #colunadireita, #colunaesquerda {
         float: none;
