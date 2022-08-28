@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposta não adorada</title>
+    <style>
+        @font-face {
+            font-family: "parati";
+            src: url(fontes/ARCHITRN.TTF);
+        }
+        body {
+            background-color: rgb(226, 150, 51);
+            height: 97vh;
+            position: relative;
+        }
+        #conteudo { 
+            position: absolute; 
+            bottom: 50%;
+            right: 50%;
+            transform: translate(50%, 50%);
+        }
+        p {
+            padding: 10px;
+            border-radius: 20px;
+            font-family: "parati";   
+            font-size: 2em;
+            font-weight: 800;
+            background-color: rgba(196, 199, 201, 0.664);
+            text-align: center;
+            transition: 1s ease-in-out 0s;
+        }  
+        a {
+            text-decoration: none;
+            color: rgb(32, 32, 99); 
+            transition: 500ms;
+        }
+        a:hover {
+            color: green;
+        }
+        section #nada:hover {
+            color: Red;
+        }
+    </style>
+</head>
+<body>
+    <section id="conteudo">
+        <p>Não aceitarei está resposta &#x1f620</p>
+        <p>You are Ready? &#x1f61d</p>
+        <p><a href="bem-vinda.html">Yes &#x1f44d</a></p>
+        <p><a href="insatisfeito.html" id="nada">No &#x1f44e</a></p>
+    </section>
+</body>
+</html>
