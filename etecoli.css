@@ -24,7 +24,6 @@ header {
     background-color: rgba(194, 64, 136, 0.5);
 }
  h1, h2 {
-     font-size: 1.2em;
     margin-bottom: 15px;
     color: rgba(255, 255, 0, 0.952);
 }
@@ -64,6 +63,7 @@ main {
 main section p {
     text-indent: 20px;
     font-weight: 400;
+    font-size: 1.4em;
 }
 
 main section h1 {
@@ -78,8 +78,8 @@ main section img {
 }
 main section q {
     font-family: "etecoli2";
-    font-size: 1.4em;
-    font-weight: 400;
+    font-size: 1.8em;
+    font-weight: 600;
 }
 main aside h2 {
     background-color: rgba(194, 64, 136, 0.5);
@@ -120,11 +120,17 @@ footer {
     margin-top: 10px;
 }
 @media (max-width: 720px) {
+    h1, h2 {
+        font-size: 1.4em;
+    }
     header img {
         display: none;
     }
     header nav {
         text-align: left;
+    }
+    main section p {
+        font-size: 1em;
     }
     main section img {
         float: none;

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-ao">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para minha BEST</title>
+    <style>
+        @font-face {
+            font-family: "parati";
+            src: url(fontes/ARCHITRN.TTF);
+        }
+        body {
+            background-color: rgb(226, 150, 51);
+            height: 97vh;
+            background-image: url(img/hbd-500.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 1px;
+            position: relative;
+            
+        }
+
+        #mudanca {
+            height: 97vh;
+            background-repeat: no-repeat;
+            background-size: 420px;
+            background-position: center top;
+            animation: muda-imagem 50s step-end 0s infinite normal none;
+        }
+        @keyframes muda-imagem {
+            
+            10% {
+                background-image: url(img/eteco-bebe.jpg);    
+            }
+            20% {
+                background-image: url(img/eteco-crianca.jpg);
+            }
+            30% {
+                background-image: url(img/eteco.jpg);
+            }
+            40% {
+                background-image: url(img/eteco-formal.jpg);
+            }
+            50% {
+                background-image: url(img/eteco-mascara.jpg);
+            }
+            60% {
+                background-image: url(img/eteco-multicores.jpg);
+            }
+            70% {
+                background-image: url(img/eteco-oculos.jpg);
+            }
+            80% {
+                background-image: url(img/etecoli-emoji.jpg);
+            }
+            90% {
+                background-image: url(img/hbd-500-4-2.jpg);
+                background-size: 100% 100%;
+            }
+        }
+
+        #conteudo { 
+            position: absolute; 
+            bottom: 22%;
+            right: 50%;
+            transform: translate(50%, 70%);
+        }
+
+        p {
+            padding: 10px;
+            border-radius: 20px;
+            font-family: "parati";   
+            font-size: 2em;
+            font-weight: 800;
+            background-color: rgba(196, 199, 201, 0.664);
+            text-align: center;
+            transition: 1s ease-in-out 0s;
+        } 
+
+        p:hover {
+            background-color: rgb(32, 32, 99);
+        }  
+
+        a {
+            text-decoration: none;
+            color: rgb(32, 32, 99); 
+            transition: 500ms;
+        }
+
+        a:hover {
+            color: rgb(206, 186, 6);
+        }
+        @media (max-width: 720px) {
+        p {
+            font-size: 1em;
+        }
+    }
+    </style>
+</head>
+<body>
+    <section id="mudanca">
+        <section id="conteudo">
+            <p><a href="discurso.html">Leia o meu discurso &#x1f4dd</a></p>
+        </section>
+    </section>
+    <audio src="audio/parabens_pra_voce_mp3_85725.mp3" preload="auto" autoplay>Audio não suportado, lamento</audio>
+</body>
+</html>
